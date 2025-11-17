@@ -1,4 +1,4 @@
-# TODO: Improve Website Design with Stoic Greek Vibes and Epic Animations
+    # TODO: Improve Website Design with Stoic Greek Vibes and Epic Animations
 
 ## Steps to Complete
 
