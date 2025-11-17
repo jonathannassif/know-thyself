@@ -16,11 +16,27 @@
   </head>
   <body>
     <header class="hero">
-      <h1>Know Thyself</h1>
-      <p>Master your mind. Shape your future.</p>
-      <a href="#offers" class="btn">Explore Offers</a>
+      <div class="hero-content">
+        <img
+          src="./assets/zeus.jpg"
+          alt="Jonathan Nassif"
+          class="profile-img"
+        />
+        <h1>Know Thyself</h1>
+        <p>Master your mind. Shape your future.</p>
+        <a href="#journal" class="btn">Start the 3 Questions</a>
+      </div>
     </header>
 
+    <!-- ===== 3-QUESTION ANIMATED JOURNAL ===== -->
+    <section class="section" id="journal">
+      <h2 style="text-align: center; margin-bottom: 3rem">
+        Know Thyself in 3 Questions
+      </h2>
+      <div id="journal-app" style="max-width: 700px; margin: 0 auto"></div>
+    </section>
+
+    <!-- ===== OFFERS ===== -->
     <section id="offers" class="section">
       <h2>My Offers</h2>
       <div class="cards">
@@ -34,14 +50,34 @@
           <p>“Awaken Your Potential” — 6-week self-mastery guide.</p>
           <a href="#" class="btn small">Buy $49 →</a>
         </div>
+        <!-- Add this anywhere in your index.html (e.g., after the cards in #offers) -->
+        <div class="card">
+          <h3>Buy Me a Coffee ☕</h3>
+          <p>Support my work & get a shoutout on X!</p>
+          <a
+            href="https://jonathannassiff.gumroad.com/coffee"
+            target="_blank"
+            class="btn small"
+            >Buy Coffee →</a
+          >
+        </div>
       </div>
     </section>
 
     <section class="section">
       <h2>Latest Articles</h2>
       <ul class="articles">
-        <li><a href="#">Why Silence Is Your Superpower</a></li>
-        <li><a href="#">The 1% Rule of Daily Growth</a></li>
+        <li>
+          <a href="https://medium.com/illumination/pain-fear-life-c9d3ddda0ef3"
+            >PAIN.FEAR.LIFE</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://medium.com/illumination/the-worlds-greatest-lie-15a7ff158cb1 "
+            >The World’s Greatest LIE!
+          </a>
+        </li>
       </ul>
     </section>
 
